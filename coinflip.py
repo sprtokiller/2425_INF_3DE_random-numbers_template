@@ -1,8 +1,7 @@
 import random
 
 def flip_coin():
-    # Tvůj kód zde
-    pass
+    return random.choice(("pana", "orel"))
 
 # Otestování funkce
 print(flip_coin())
