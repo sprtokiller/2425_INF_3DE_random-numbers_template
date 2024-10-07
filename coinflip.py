@@ -2,7 +2,7 @@ import random
 
 def flip_coin():
     # Tvůj kód zde
-    pass
+    return random.randint(0, 1)
 
 # Otestování funkce
 print(flip_coin())
