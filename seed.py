@@ -5,7 +5,7 @@ def generate_seeded_sequence(seed, n):
     random.seed(seed)
     
     # Vygenerujeme sekvenci náhodných čísel
-    for _ in range(n):
+    for _ in range(10, 100, 2):
         print(random.randint(1, 100))
 
 # Otestování funkce
