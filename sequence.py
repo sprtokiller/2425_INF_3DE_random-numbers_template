@@ -1,8 +1,6 @@
 import random
 
 def generate_sequence(n):
-    # Tvůj kód zde
-    pass
-
+    return [random.randint(1, 100) for _ in range(n)] # Generuje sekvenci "n" náhodných čísel od 1 do 100
 # Otestování funkce
-generate_sequence(10)  # Vygeneruje 10 náhodných čísel
+print(generate_sequence(10))  # Vygeneruje 10 náhodných čísel
